@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        
+    </style>
+</head>
+<body >
+
+    <div class="container mt-5">
+        <div class="todo">
+            <h2 class="txt text-center text-white p-5 ">To-Do List</h2>
+            
+            <div class="row">
+                <input type="text" id="taskInput"  placeholder="Enter a Text" >
+                <button class="btn1 text" onclick="addTask()">Enter</button>
+            </div>
+        </div>
+        <div id="notification" class="alert text-white d-none" role="alert"></div>
+        
+        <h2 class="text-white">Tasks:</h2>
+        <ul id="taskList" class="list-group"></ul>
+    </div>
+</body>
+</html>

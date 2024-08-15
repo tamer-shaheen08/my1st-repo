@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(241, 184, 241);
+    
+}
+.btn1{
+    background-color: rgb(199, 29, 123);
+}
+.container{
+    width: 100%;
+    min-height: 90vh;
+    background:  #636e83;
+    padding: 10px;
+}
+.container-fluid{
+    margin: 0px;
+}
+.todo{
+    margin: 1px auto 1px;
+    padding: 10px 10px 10px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 500px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px ;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+
+}
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #eb3a75;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 40px;
+}
+.list-group{
+    font-size: 17px;
+    padding: 12px 50px 12px 50px;
+    user-select: none;
+}
+.text-white{
+    font-size: 30px;
+    padding-left: 50px;
+}
+ul{
+    padding-left: 50px;
+}
+#notification{
+    font-size: 20px;
+
+}
+.txt{
+    font-size: 50px;
+}
+input[type="checkbox"] {
+    margin-right: 20px;
+    transform: scale(1.2);
+}
